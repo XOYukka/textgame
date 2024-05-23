@@ -303,38 +303,3 @@ func handleCommand(command string) string {
 
 	return response
 }
-
-//TODO: look()
-
-// if len(locations) == 0 {
-// 	locations["кухня"] = &Location{
-// 		Name:        "кухня",
-// 		Discription: "кухня, ничего интересного. можно пройти - коридор",
-// 	}
-// 	locations["коридор"] = &Location{
-// 		Name:        "коридор",
-// 		Discription: "ничего интересного. можно пройти - кухня, комната, улица",
-// 	}
-// 	locations["комната"] = &Location{
-// 		Name:        "комната",
-// 		Discription: "ты в своей комнате. можно пройти - коридор",
-// 	}
-// 	locations["улица"] = &Location{
-// 		Name:        "улица",
-// 		Discription: "на улице весна. можно пройти - домой",
-// 	}
-// }
-
-// сравнение адресов в памяти предметов у игрока и на локации
-// func (p *Player) unusedItems(l *Location) string {
-
-// 	var res string
-// 	for ctr, item := range p.Inventory {
-// 		if &item != &l.Items[ctr] {
-// 			res += l.Items[ctr].Name
-// 		}
-// 	}
-// 	fmt.Println(res)
-
-// 	return res
-// }
